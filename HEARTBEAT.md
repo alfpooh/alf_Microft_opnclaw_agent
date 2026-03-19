@@ -1,5 +1,13 @@
 # HEARTBEAT.md
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+## 핀란드 뉴스 브리핑 (스케줄)
+- **시간**: 한국시간 오전 8:30
+- **소스**: YLE 뉴스
+- **언어**: 한국어 요약
 
-# Add tasks below when you want the agent to check something periodically.
+## 실행 조건
+```
+현재시간(UTC) = 23:30 (한국시간 08:30) 이고
+마지막체크날짜 < 오늘 = 뉴스 체크 실행
+그 외 = HEARTBEAT_OK
+```

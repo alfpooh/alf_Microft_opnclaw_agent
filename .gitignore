@@ -1,0 +1,13 @@
+# Dr. Alf Workspace Files
+*.log
+.wget-hsts
+bin/
+client_secret.json
+gog
+hyperlink-replacer.gs
+media/
+news-summarizer.skill
+update_japanese_names.sh
+.config/
+.openclaw/
+.gitconfig
