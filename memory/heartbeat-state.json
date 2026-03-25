@@ -3,6 +3,7 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "finland_news_date": "2026-03-21"
+    "finland_news_timestamp": 1743368100,
+    "te_office_reminders": []
   }
 }
